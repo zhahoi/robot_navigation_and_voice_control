@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<launch>
+    <!-- <include file="$(find nanodet)/launch/usb_cam.launch"/> -->
+    <node name="nanodet" pkg="nanodet" type="nanodet" output="screen">
+        <rosparam file="$(find nanodet)/config/config.yaml" command="load" />
+    </node>
+</launch>

@@ -1,0 +1,16 @@
+n ǐ h ǎo x iǎo b īng @你好小冰
+q ián j ìn @前进
+h òu t uì @后退
+z uǒ zh uǎn @左转
+y òu zh uǎn  @右转 
+h uí zh ōng @回中
+zh í x íng @直行
+t íng zh ǐ @停止
+g uò l ái @过来
+zh uǎn g è q uān  @转个圈
+t uì x ià @退下
+q ù y ī h ào m ù b iāo d iǎn @去一号目标点
+q ù èr h ào m ù b iāo d iǎn @去二号目标点
+q ù s ān h ào m ù b iāo d iǎn @去三号目标点
+q ǔ x iāo d ǎo h áng @取消导航
+h uí d ào y uán d iǎn @回到原点

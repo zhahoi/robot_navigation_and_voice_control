@@ -1,0 +1,19 @@
+<launch>
+    <!-- 启动 usb_cam 节点 -->
+    <node pkg="usb_cam" type="usb_cam_node" name="usb_cam" output="screen">
+        <!-- 设置摄像头设备节点 (例如 /dev/video0) -->
+        <param name="video_device" value="/dev/video0" />
+        
+        <!-- 设置图像宽度和高度 -->
+        <param name="image_width" value="640" />
+        <param name="image_height" value="480" />
+        
+        <!-- 设置帧率 -->
+        <param name="fps" value="30" />
+        
+        <!-- 设置发布图像话题 -->
+        <param name="io_method" value="mmap" />
+        <param name="pixel_format" value="yuyv" />
+        <param name="camera_frame_id" value="usb_cam" />
+    </node>
+</launch>
