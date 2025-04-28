@@ -121,11 +121,11 @@ $source devel_isolated/setup.bash
 $roslaunch nanodet run.launch 
 ```
 
-![图像1](C:\Users\HIT-HAYES\Desktop\图像1.png)
+![图像1]([C:\Users\HIT-HAYES\Desktop\图像1.png](https://github.com/zhahoi/robot_navigation_and_voice_control/blob/main/images/%E5%9B%BE%E5%83%8F1.png))
 
-![图像2](C:\Users\HIT-HAYES\Desktop\图像2.png)
+![图像2]([C:\Users\HIT-HAYES\Desktop\图像2.png](https://github.com/zhahoi/robot_navigation_and_voice_control/blob/main/images/%E5%9B%BE%E5%83%8F2.png))
 
-![图像4](C:\Users\HIT-HAYES\Desktop\图像4.png)
+![图像4]([C:\Users\HIT-HAYES\Desktop\图像4.png](https://github.com/zhahoi/robot_navigation_and_voice_control/blob/main/images/%E5%9B%BE%E5%83%8F4.png))
 
 
 
@@ -142,7 +142,7 @@ $roslaunch sherpa_onnx_ros tts.launch
 
 当目标检测检测到"**人**"之后，会女声播报“**检测到行人**”的语音。
 
-![图像3](C:\Users\HIT-HAYES\Desktop\图像3.png)
+![图像3]([C:\Users\HIT-HAYES\Desktop\图像3.png](https://github.com/zhahoi/robot_navigation_and_voice_control/blob/main/images/%E5%9B%BE%E5%83%8F3.png))
 
 
 
@@ -152,7 +152,7 @@ $roslaunch sherpa_onnx_ros tts.launch
 
 通过从麦克风用普通话说出下列的关键词，可以让机器人执行相应的任务。
 
-![图像5](C:\Users\HIT-HAYES\Desktop\图像5.png)
+![图像5]([C:\Users\HIT-HAYES\Desktop\图像5.png](https://github.com/zhahoi/robot_navigation_and_voice_control/blob/main/images/%E5%9B%BE%E5%83%8F5.png))
 
 可以从`sherpa-onnx-ros/sherpa-onnx-kws-zipformer-wenetspeech-3.3M-2024-01-01/voice_commands.yaml`下修改机器人的线速度、角速度和导航的目标点。
 
@@ -187,9 +187,9 @@ $roslaunch sherpa_onnx_ros keywords.launch
 
 此外你可以客制化自己的检测命令，可以参考以下博客文章[kaldi sherpa-onnx 生成keyword.txt](https://blog.csdn.net/hongkid/article/details/143106261),只是效果因指令而异，需要具体进行测试。
 
-![图像6](C:\Users\HIT-HAYES\Desktop\图像6.png)
+![图像6]([C:\Users\HIT-HAYES\Desktop\图像6.png](https://github.com/zhahoi/robot_navigation_and_voice_control/blob/main/images/%E5%9B%BE%E5%83%8F6.png))
 
-![图像7](C:\Users\HIT-HAYES\Desktop\图像7.png)
+![图像7]([C:\Users\HIT-HAYES\Desktop\图像7.png](https://github.com/zhahoi/robot_navigation_and_voice_control/blob/main/images/%E5%9B%BE%E5%83%8F7.png))
 
 
 
